@@ -24,7 +24,7 @@
 include device/xiaomi/wayne-common/BoardConfigCommon.mk
 
 # Device Path
-DEVICE_PATH := device/xiaomi/jasmine_sprout
+DEVICE_PATH := device/xiaomi/wayne
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom

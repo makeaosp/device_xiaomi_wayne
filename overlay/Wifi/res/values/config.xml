@@ -16,5 +16,5 @@
 
 <resources>
     <!-- Default access point SSID used for tethering -->
-    <string name="wifi_tether_configure_ssid_default" translatable="false">Xiaomi Mi A2</string>
+    <string name="wifi_tether_configure_ssid_default" translatable="false">Xiaomi Mi 6X</string>
 </resources>

@@ -25,10 +25,7 @@
 $(call inherit-product, device/xiaomi/wayne-common/wayne-common.mk)
 
 # Device Path
-DEVICE_PATH := device/xiaomi/jasmine_sprout
-
-# A/B
-ENABLE_AB := true
+DEVICE_PATH := device/xiaomi/wayne
 
 # Fstab
 PRODUCT_PACKAGES += \
@@ -36,7 +33,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    JasmineWifi
+    WayneWifi
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
